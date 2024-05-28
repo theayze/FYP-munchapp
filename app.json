@@ -2,6 +2,7 @@
   "expo": {
     "name": "FYP",
     "slug": "FYP",
+    "scheme": "fyp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.fyp.bitebond"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
